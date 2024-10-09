@@ -497,7 +497,7 @@ public class Main {
                     break;
 
                 case 19: // возвращение массива задом наперёд
-                    System.out.println("Задача 4.9: Возвратный реверс.");
+                    System.out.println("Задача 4.7: Возвратный реверс.");
                     System.out.print("Введите массив в формате [1,2,3,4...]: ");
                     String input4 = scanner.next();
                     if (!input4.matches("\\[(-?\\d+,?)+\\]")) { 
@@ -512,7 +512,7 @@ public class Main {
                     System.out.println("Результат: " + Arrays.toString(main.reverseBack(arr3)));
 
                 case 20: // поиск всех вхождений числа в массив
-                    System.out.println("Задача 4.1: Поиск первого значения.");
+                    System.out.println("Задача 4.9: Все вхождения.");
                     System.out.print("Введите массив в формате [1,2,3,4...]: ");
                     String input5 = scanner.next();
                     if (!input5.matches("\\[(-?\\d+,?)+\\]")) { 
