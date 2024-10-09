@@ -494,6 +494,7 @@ public class Main {
                     }
                     int pos = scanner.nextInt();
                     System.out.println("Результат: " + Arrays.toString(main.add(arr2, ins, pos)));
+                    break;
 
                 case 19: // возвращение массива задом наперёд
                     System.out.println("Задача 4.9: Возвратный реверс.");
