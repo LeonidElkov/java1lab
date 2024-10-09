@@ -196,7 +196,7 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
 
         while (true) {
-            System.out.print("Выберите действие от 0 до 20: ");
+            System.out.print("Выберите задание от 1 до 20 (0 - выход): ");
             while (!scanner.hasNextInt()) {
                 System.out.print("Введите целое число: ");
                 scanner.next(); // очистка ввода
